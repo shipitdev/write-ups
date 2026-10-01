@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#fffdf7"/>
+<rect x="0" y="0" width="800" height="600" rx="10" fill="#fffdf7" stroke="#fffdf7" stroke-width="2"/>
+<text x="35" y="44.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#64748b">HERDR / INSIDE THE HARNESS</text>
+<text x="35" y="116.64" font-family="Comic Sans MS, cursive" font-size="42" fill="#243342">More agents.</text>
+<text x="35" y="171.24" font-family="Comic Sans MS, cursive" font-size="42" fill="#243342">Less terminal chaos.</text>
+<text x="40" y="248.4" font-family="Comic Sans MS, cursive" font-size="20" fill="#64748b">The tab-hopping routine</text>
+<rect x="40" y="275" width="230" height="65" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="63.16666666666667" y="314.36" font-family="Comic Sans MS, cursive" font-size="18" fill="#334155">Claude &gt; still working?</text>
+<rect x="65" y="355" width="230" height="65" rx="10" fill="#ffd8a8" stroke="#334155" stroke-width="2"/>
+<text x="101.66666666666667" y="394.36" font-family="Comic Sans MS, cursive" font-size="18" fill="#334155">Codex &gt; needs me?</text>
+<rect x="40" y="435" width="230" height="65" rx="10" fill="#b2f2bb" stroke="#334155" stroke-width="2"/>
+<text x="69.5" y="474.36" font-family="Comic Sans MS, cursive" font-size="18" fill="#334155">Reviewer &gt; finished?</text>
+<polyline points="300,385 400,385" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="389.1946347717679,390.21958640933474 400,385 389.1946347717679,379.78041359066526" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="425" y="230" width="335" height="295" rx="10" fill="#e5dbff" stroke="#334155" stroke-width="2"/>
+<text x="450" y="275.76" font-family="Comic Sans MS, cursive" font-size="28" fill="#243342">HERDR</text>
+<rect x="450" y="305" width="285" height="55" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="495.1666666666667" y="339.63" font-family="Comic Sans MS, cursive" font-size="19" fill="#334155">Claude Code / working</text>
+<rect x="450" y="375" width="285" height="55" rx="10" fill="#ffd8a8" stroke="#334155" stroke-width="2"/>
+<text x="490.1666666666667" y="409.63" font-family="Comic Sans MS, cursive" font-size="19" fill="#334155">Codex / needs approval</text>
+<rect x="450" y="445" width="285" height="55" rx="10" fill="#b2f2bb" stroke="#334155" stroke-width="2"/>
+<text x="517.1666666666666" y="479.63" font-family="Comic Sans MS, cursive" font-size="19" fill="#334155">Reviewer / ready</text>
+<text x="35" y="578.4" font-family="Comic Sans MS, cursive" font-size="20" fill="#243342">Keep them running. See their state. Send the next task.</text>
+</svg>

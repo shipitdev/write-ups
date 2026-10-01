@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#fffdf7"/>
+<rect x="0" y="0" width="800" height="600" rx="10" fill="#fffdf7" stroke="#fffdf7" stroke-width="2"/>
+<text x="35" y="57.44" font-family="Comic Sans MS, cursive" font-size="32" fill="#243342">The UI can leave. The work can stay.</text>
+<text x="35" y="94.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#64748b">The background server owns the terminals and process state.</text>
+<rect x="40" y="135" width="210" height="90" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="81.16666666666666" y="173.64000000000001" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Herdr client</text>
+<text x="84.83333333333334" y="202.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">terminal UI</text>
+<polyline points="250,180 335,180" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="324.1946347717679,185.21958640933477 335,180 324.1946347717679,174.78041359066523" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="335" y="135" width="425" height="300" rx="10" fill="#e5dbff" stroke="#334155" stroke-width="2"/>
+<text x="547.5" y="292.94" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155"></text>
+<text x="355" y="171.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#243342">BACKGROUND SERVER</text>
+<rect x="355" y="205" width="385" height="65" rx="10" fill="#d0bfff" stroke="#334155" stroke-width="2"/>
+<text x="420.5" y="245.44" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Workspace &gt; Tab &gt; Panes</text>
+<polyline points="445,270 445,315" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="439.78041359066526,304.1946347717679 445,315 450.21958640933474,304.1946347717679" fill="none" stroke="#64748b" stroke-width="2"/>
+<polyline points="640,270 640,315" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="634.7804135906653,304.1946347717679 640,315 645.2195864093347,304.1946347717679" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="355" y="315" width="175" height="85" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="371.0" y="351.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">PTY + process</text>
+<text x="380.6666666666667" y="379.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Claude Code</text>
+<rect x="555" y="315" width="185" height="85" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="576.0" y="351.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">PTY + process</text>
+<text x="616.0" y="379.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Codex</text>
+<rect x="40" y="300" width="210" height="85" rx="10" fill="#c3fae8" stroke="#334155" stroke-width="2"/>
+<text x="57.0" y="336.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">CLI / socket API</text>
+<text x="59.33333333333333" y="364.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">inspect + control</text>
+<polyline points="250,343 335,343" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="324.1946347717679,348.21958640933474 335,343 324.1946347717679,337.78041359066526" fill="none" stroke="#64748b" stroke-width="2"/>
+<text x="45" y="501.16" font-family="Comic Sans MS, cursive" font-size="23" fill="#243342">Agent CLIs retain their own model + tool loops.</text>
+<text x="45" y="533.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#64748b">PTY = pseudo-terminal: the process sees a real terminal.</text>
+<text x="35" y="579.72" font-family="Comic Sans MS, cursive" font-size="16" fill="#64748b">HERDR / ARCHITECTURE NOTES     •     Conceptual illustration</text>
+</svg>

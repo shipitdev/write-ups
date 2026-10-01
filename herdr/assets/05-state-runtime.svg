@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#fffdf7"/>
+<rect x="0" y="0" width="800" height="600" rx="10" fill="#fffdf7" stroke="#fffdf7" stroke-width="2"/>
+<text x="35" y="55.6" font-family="Comic Sans MS, cursive" font-size="30" fill="#243342">A terminal has facts. And machinery.</text>
+<text x="35" y="96.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#243342">TerminalId joins the metadata to the live resources.</text>
+<rect x="40" y="140" width="230" height="110" rx="10" fill="#fff3bf" stroke="#334155" stroke-width="2"/>
+<text x="102.16666666666666" y="188.64000000000001" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">PaneState</text>
+<text x="70.5" y="217.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">view attachment</text>
+<polyline points="270,195 360,195" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="349.1946347717679,200.21958640933477 360,195 349.1946347717679,189.78041359066523" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="360" y="125" width="390" height="140" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="480.3333333333333" y="174.34" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">TerminalState</text>
+<text x="454.8333333333333" y="202.94" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">cwd / agent / state</text>
+<text x="460.5" y="231.54000000000002" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">session / revisions</text>
+<text x="55" y="301.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#243342">attached_terminal_id</text>
+<rect x="360" y="340" width="390" height="155" rx="10" fill="#c3fae8" stroke="#334155" stroke-width="2"/>
+<text x="468.6666666666667" y="396.84000000000003" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Runtime registry</text>
+<text x="447.0" y="425.44000000000005" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">TerminalId &gt; runtime</text>
+<text x="431.0" y="454.04" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">PTY / parser / detector</text>
+<polyline points="555,265 555,340" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="549.7804135906653,329.1946347717679 555,340 560.2195864093347,329.1946347717679" fill="none" stroke="#64748b" stroke-width="2"/>
+<text x="40" y="400.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#243342">AppState:</text>
+<text x="40" y="428.84000000000003" font-family="Comic Sans MS, cursive" font-size="22" fill="#243342">pure records</text>
+<text x="40" y="485.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#243342">Live resources:</text>
+<text x="40" y="513.84" font-family="Comic Sans MS, cursive" font-size="22" fill="#243342">separate owner</text>
+<text x="35" y="579.72" font-family="Comic Sans MS, cursive" font-size="16" fill="#243342">HERDR / SOURCE WALKTHROUGH     •     Simplified traced paths</text>
+</svg>

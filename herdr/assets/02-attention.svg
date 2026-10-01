@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#fffdf7"/>
+<rect x="0" y="0" width="800" height="600" rx="10" fill="#fffdf7" stroke="#fffdf7" stroke-width="2"/>
+<text x="35" y="57.44" font-family="Comic Sans MS, cursive" font-size="32" fill="#243342">A terminal full of text needs a status.</text>
+<text x="35" y="94.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#64748b">Herdr reads screen rules, or uses agent-reported lifecycle state.</text>
+<rect x="40" y="145" width="245" height="85" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="61.0" y="181.14000000000001" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Foreground process</text>
+<text x="98.83333333333334" y="209.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">+ live screen</text>
+<rect x="40" y="270" width="245" height="85" rx="10" fill="#c3fae8" stroke="#334155" stroke-width="2"/>
+<text x="62.33333333333333" y="306.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Agent / integration</text>
+<text x="93.0" y="334.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">state reports</text>
+<polyline points="285,188 370,240" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="358.05878780699067,238.81363944707996 370,240 363.506531613213,229.90867360998578" fill="none" stroke="#64748b" stroke-width="2"/>
+<polyline points="285,310 370,258" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="363.506531613213,268.0913263900142 370,258 358.05878780699067,259.18636055292" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="370" y="205" width="365" height="90" rx="10" fill="#d0bfff" stroke="#334155" stroke-width="2"/>
+<text x="434.0" y="243.64000000000001" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Lifecycle classification</text>
+<text x="438.6666666666667" y="272.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">source authority rules</text>
+<polyline points="550,295 550,340" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="544.7804135906653,329.1946347717679 550,340 555.2195864093347,329.1946347717679" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="40" y="370" width="220" height="75" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="110.5" y="401.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">working</text>
+<text x="69.5" y="429.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">actively running</text>
+<rect x="290" y="370" width="220" height="75" rx="10" fill="#ffd8a8" stroke="#334155" stroke-width="2"/>
+<text x="360.5" y="401.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">blocked</text>
+<text x="316.5" y="429.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">needs a decision</text>
+<rect x="540" y="370" width="220" height="75" rx="10" fill="#b2f2bb" stroke="#334155" stroke-width="2"/>
+<text x="594.8333333333334" y="401.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">done / idle</text>
+<text x="571.6666666666666" y="429.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">ready for input</text>
+<text x="45" y="506.16" font-family="Comic Sans MS, cursive" font-size="23" fill="#243342">unknown = cannot classify confidently</text>
+<text x="45" y="538.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#64748b">Lifecycle state tells you where to look, not whether code is correct.</text>
+<text x="35" y="579.72" font-family="Comic Sans MS, cursive" font-size="16" fill="#64748b">HERDR / ARCHITECTURE NOTES     •     Conceptual illustration</text>
+</svg>

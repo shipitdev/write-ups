@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 800 600">
+<rect width="800" height="600" fill="#fffdf7"/>
+<rect x="0" y="0" width="800" height="600" rx="10" fill="#fffdf7" stroke="#fffdf7" stroke-width="2"/>
+<text x="35" y="57.44" font-family="Comic Sans MS, cursive" font-size="32" fill="#243342">Detach and restart are different promises.</text>
+<text x="35" y="94.56" font-family="Comic Sans MS, cursive" font-size="18" fill="#64748b">Keep a live process, or reconstruct a saved session.</text>
+<rect x="40" y="150" width="220" height="80" rx="10" fill="#a5d8ff" stroke="#334155" stroke-width="2"/>
+<text x="81.0" y="197.94" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Detach client</text>
+<polyline points="260,190 325,190" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="314.1946347717679,195.21958640933477 325,190 314.1946347717679,184.78041359066523" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="325" y="145" width="420" height="90" rx="10" fill="#b2f2bb" stroke="#334155" stroke-width="2"/>
+<text x="442.3333333333333" y="183.64000000000001" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Server stays alive</text>
+<text x="409.0" y="212.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">same processes continue</text>
+<rect x="40" y="290" width="220" height="80" rx="10" fill="#ffd8a8" stroke="#334155" stroke-width="2"/>
+<text x="73.83333333333333" y="337.94" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Restart server</text>
+<polyline points="260,330 325,330" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="314.1946347717679,335.21958640933474 325,330 314.1946347717679,324.78041359066526" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="325" y="275" width="420" height="110" rx="10" fill="#d0bfff" stroke="#334155" stroke-width="2"/>
+<text x="441.0" y="323.64" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Old processes end</text>
+<text x="429.8333333333333" y="352.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">saved layout returns</text>
+<polyline points="535,385 535,425" fill="none" stroke="#64748b" stroke-width="2"/><polyline points="529.7804135906653,414.1946347717679 535,425 540.2195864093347,414.1946347717679" fill="none" stroke="#64748b" stroke-width="2"/>
+<rect x="325" y="425" width="420" height="85" rx="10" fill="#c3fae8" stroke="#334155" stroke-width="2"/>
+<text x="420.1666666666667" y="461.14" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">Eligible agent sessions</text>
+<text x="339.16666666666663" y="489.74" font-family="Comic Sans MS, cursive" font-size="22" fill="#334155">resume through supported integration</text>
+<text x="45" y="490.24" font-family="Comic Sans MS, cursive" font-size="22" fill="#b45309">Recovery is not</text>
+<text x="45" y="518.84" font-family="Comic Sans MS, cursive" font-size="22" fill="#b45309">process survival</text>
+<text x="35" y="579.72" font-family="Comic Sans MS, cursive" font-size="16" fill="#64748b">HERDR / ARCHITECTURE NOTES     •     Conceptual illustration</text>
+</svg>
