@@ -4,12 +4,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Writing · shipitdev</title>
 <style>
+:root{color-scheme:light;--ink:#202622;--muted:#606b63;--paper:#faf9f5;--line:#dcded5;--accent:#2b674e}
+
 body{max-width:720px;margin:12vh auto;padding:24px;background:#faf9f5;color:#202622;font:19px/1.7 Georgia,serif}h1{font-family:system-ui,sans-serif}a{color:#2b674e;text-underline-offset:4px}a:focus-visible{outline:3px solid #b45309;outline-offset:4px}footer{margin-top:64px;font-size:15px}
-</style>
+
+
+:root{--surface:#eeefe7;--hover:#163b2b}
+html[data-theme="dark"]{color-scheme:dark;--ink:#e9ece5;--muted:#b0bbb2;--paper:#151b18;--line:#38453c;--accent:#9bd4b2;--surface:#263229;--hover:#c1ecd0}
+body{background:var(--paper);color:var(--ink)}a{color:var(--accent)}a:hover{color:var(--hover)}code,th{background:var(--surface)}pre code{background:none}.skip{background:var(--paper)}.theme-toggle{font:14px/1.4 system-ui,sans-serif;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 12px;cursor:pointer;flex-shrink:0}.theme-toggle:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.bar{align-items:center;flex-wrap:wrap}@media print{html[data-theme]{--paper:white;--ink:#202622;--muted:#606b63;--line:#dcded5;--accent:#2b674e;--surface:#eeefe7}.theme-toggle{display:none}}
+</style><script>try{document.documentElement.dataset.theme=localStorage.getItem('writeups-theme')==='dark'?'dark':localStorage.getItem('writeups-theme')==='light'?'light':matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}</script>
 <main>
+<button class="theme-toggle" type="button" hidden>Dark theme</button>
 <h1>Writing</h1>
 <p>Notes on things I build, use, and learn.</p>
 <p><a href="herdr/">Inside Herdr: more agents, less terminal chaos</a></p>
 </main>
 <footer>shipitdev (Harsh K. Singh) · <a href="https://github.com/shipitdev/write-ups">Source on GitHub</a></footer>
 </html>
+<script>
+const toggle=document.querySelector('.theme-toggle');
+function label(){toggle.textContent=document.documentElement.dataset.theme==='dark'?'Light theme':'Dark theme'}
+label();toggle.hidden=false;
+toggle.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=theme;try{localStorage.setItem('writeups-theme',theme)}catch{}label()});
+</script>
