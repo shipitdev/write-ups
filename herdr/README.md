@@ -230,4 +230,4 @@ Written by **shipitdev (Harsh K. Singh)** · [GitHub](https://github.com/shipitd
 
 Code links refer to Herdr [`331775c`](https://github.com/herdrdev/herdr/tree/331775c3e51e8cca4d122468180738101bd9e6b0) (`0.9.3`). The diagrams simplify the implementation; the command example is illustrative.
 
-Explore: [Herdr](https://github.com/herdrdev/herdr) · [Docs](https://herdr.dev/docs/) · [Editable diagrams](assets/README.md)
+Explore: [Herdr](https://github.com/herdrdev/herdr) · [Docs](https://herdr.dev/docs/)
